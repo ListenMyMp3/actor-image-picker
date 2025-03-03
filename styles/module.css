@@ -1,0 +1,30 @@
+.image-picker-buttons {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    display: flex;
+    gap: 3px;
+  }
+  
+  .image-picker-btn {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.8);
+    border: 1px solid #fff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .image-picker-btn:hover {
+    background: rgba(255,255,255,0.2);
+  }
+  
+  .image-picker-btn.pinterest {
+    color: #e60023;
+  }
+  
+  .image-picker-btn.local {
+    color: #4aa5ff;
+  }

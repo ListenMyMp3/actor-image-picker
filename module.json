@@ -1,0 +1,16 @@
+{
+    "name": "actor-image-picker",
+    "title": "Actor Image Picker+",
+    "description": "Image selection from local storage or Pinterest integration",
+    "version": "2.0.0",
+    "author": "ListenMyMp3",
+    "scripts": ["./scripts/main.js"],
+    "styles": ["./styles/module.css"],
+    "compatibility": {
+      "minimum": "11",
+      "verified": "12"
+    },
+    "url": "https://github.com/ListenMyMp3/actor-image-picker",
+    "manifest": "https://raw.githubusercontent.com/ListenMyMp3/actor-image-picker/main/module.json",
+    "download": "https://github.com/ListenMyMp3/actor-image-picker/archive/main.zip"
+  }
