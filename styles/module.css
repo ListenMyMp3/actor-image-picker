@@ -1,30 +1,45 @@
-.image-picker-buttons {
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-    display: flex;
-    gap: 3px;
-  }
-  
-  .image-picker-btn {
-    width: 30px;
-    height: 30px;
-    padding: 5px;
-    border-radius: 3px;
-    background: rgba(0,0,0,0.8);
-    border: 1px solid #fff;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .image-picker-btn:hover {
-    background: rgba(255,255,255,0.2);
-  }
-  
-  .image-picker-btn.pinterest {
-    color: #e60023;
-  }
-  
-  .image-picker-btn.local {
-    color: #4aa5ff;
-  }
+/* Контейнер для кнопок поверх аватара */
+.sheet-header .image-picker-wrapper {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  display: flex;
+  gap: 8px;
+  background: rgba(0,0,0,0.8);
+  padding: 6px;
+  border-radius: 15px;
+  border: 1px solid #666;
+}
+
+/* Анимация появления */
+.sheet-header:hover .image-picker-wrapper {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.image-picker-btn {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 16px;
+  transition: all 0.2s;
+}
+
+/* Цветовые акценты как в D&D 5e */
+.image-picker-btn.local {
+  background: #5e5e5e;
+  color: #b1b1b1;
+}
+
+.image-picker-btn.pinterest {
+  background: #5e5e5e;
+  color: #e60023;
+}
+
+.image-picker-btn:hover {
+  background: #7a7a7a;
+  transform: scale(1.15);
+}
