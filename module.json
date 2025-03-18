@@ -1,16 +1,22 @@
 {
-    "name": "actor-image-picker",
-    "title": "Actor Image Picker+",
-    "description": "Image selection from local storage or Pinterest integration",
-    "version": "2.0.0",
-    "author": "ListenMyMp3",
-    "scripts": ["./scripts/main.js"],
-    "styles": ["./styles/module.css"],
+    "id": "chatgpt-assistant",
+    "title": "ChatGPT Assistant",
+    "description": "Позволяет отправлять запросы ChatGPT прямо из FoundryVTT",
+    "version": "1.0.0",
     "compatibility": {
-      "minimum": "11",
-      "verified": "12"
+        "minimum": "12",
+        "verified": "12"
     },
+    "authors": [
+        {
+            "name": "Юрий",
+            "role": "developer"
+        }
+    ],
+    "esmodules": ["module.js"],
+    "packs": [],
+    "languages": [],
     "url": "https://github.com/ListenMyMp3/actor-image-picker",
     "manifest": "https://raw.githubusercontent.com/ListenMyMp3/actor-image-picker/main/module.json",
     "download": "https://github.com/ListenMyMp3/actor-image-picker/archive/main.zip"
-  }
+}
